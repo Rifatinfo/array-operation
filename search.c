@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-    int arr[20], n, i, s_data , found = 0;
+    int arr[200], n, i, s_data , found = 0;
    
     printf("Enter the number of array elements: ");
     scanf("%d", &n);
 
-     // Input array elements
     for (i = 0; i < n; i++) {
         printf("arr[%d]: ", i);
         scanf("%d", &arr[i]);
